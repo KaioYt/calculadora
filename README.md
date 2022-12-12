@@ -17,7 +17,7 @@
 
 #### Código HTML
 
-´´´
+
   <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -65,6 +65,3 @@
     </div>
 
     <script src="script.js"></script>
-
-
-´´´
