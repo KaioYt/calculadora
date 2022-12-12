@@ -78,13 +78,13 @@
     <script src="script.js"></script>
 </body>
 </html>
-    
-     ```
+ 
+ ````
   
   #### Código CSS
  
   
- ```
+```
   
   @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
@@ -166,4 +166,4 @@ body{
     font-weight: bold;
 }
 
-  ```
+````
