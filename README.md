@@ -13,4 +13,67 @@
 <a>https://calculadora-by-kaioyt.netlify.app/</a>
 
 
-##Codigos Usados para Desenvolver
+## Códigos Usados para Desenvolver
+
+#### Código HTML
+'''
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="background">
+        <h1>Developed By KaioYt</h1>
+        <div class="calc">
+            <h1>Calculadora</h1>
+            <p id="findings"></p>
+            <table>
+                <tr>
+                    <td><button class="bnt" onclick="clean('')">C</button></td>
+                    <td><button class="bnt" onclick="back('')"><</button></td>
+                    <td><button class="bnt" onclick="insert('/')">/</button></td>
+                    <td><button class="bnt" onclick="insert('*')">X</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="bnt" onclick="insert('7')">7</button></td>
+                    <td><button class="bnt" onclick="insert('8')">8</button></td>
+                    <td><button class="bnt" onclick="insert('9')">9</button></td>
+                    <td><button class="bnt" onclick="insert('-')">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="bnt" onclick="insert('4')">4</button></td>
+                    <td><button class="bnt" onclick="insert('5')">5</button></td>
+                    <td><button class="bnt" onclick="insert('6')">6</button></td>
+                    <td><button class="bnt" onclick="insert('+')">+</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="bnt" onclick="insert('1')">1</button></td>
+                    <td><button class="bnt" onclick="insert('2')">2</button></td>
+                    <td><button class="bnt" onclick="insert('3')">3</button></td>
+                    <td rowspan="2"><button  class="bnt" style="height: 110px;" onclick="calc('')">=</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button class="bnt" style="width: 110px;" onclick="insert('0')">0</button></td>
+                    <td><button class="bnt" onclick="insert('.')">.</button></td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+'''
